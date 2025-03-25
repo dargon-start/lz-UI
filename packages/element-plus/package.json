@@ -1,0 +1,19 @@
+{
+  "name": "@lz-UI/element-plus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "element-plus": "^2.9.7",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vue/runtime-core": "^3.5.13"
+  }
+}
