@@ -2,7 +2,7 @@
  * @Author: longzai longzai.com
  * @Date: 2025-03-27 09:58:06
  * @LastEditors: longzai longzai.com
- * @LastEditTime: 2025-03-27 11:21:49
+ * @LastEditTime: 2025-03-27 15:21:03
  * @FilePath: \lz-UI\docs\build\source-code.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -31,7 +31,7 @@ const sourceCode = () => {
         console.log(packageName, compPath)
         const suffix = packageName.includes('ant') ? 'jsx' : 'vue'
         return fsPromises.readFile(path.resolve(packagesPath, `${packageName}/examples/${compPath}.${suffix}`), 'utf-8')
-      })
+      }) || []
       const filesRes = await Promise.all(match)
 
       let i = 0
@@ -47,7 +47,7 @@ const sourceCode = () => {
   }
 }
 
-const warp = code => `<pre v-pre><code>${code}</code></pre>`
+const warp = (code: string) => `<pre v-pre><code>${code}</code></pre>`
 
 function sourceSplit (_: string) {
   const result = /.*?source-code="(.*)"/.exec(_)
