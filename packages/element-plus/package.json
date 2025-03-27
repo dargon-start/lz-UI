@@ -4,16 +4,23 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "docs:build": "vite build --mode docs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
     "element-plus": "^2.9.7",
-    "vue": "^3.5.13"
+    "vite": "^6.2.3",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
   },
   "devDependencies": {
-    "@vue/runtime-core": "^3.5.13"
+    "@vue/runtime-core": "^3.5.13",
+    "less": "^4.2.2",
+    "unplugin-vue-macros": "^2.14.5"
   }
 }

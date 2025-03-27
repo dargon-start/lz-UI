@@ -1,35 +1,50 @@
 {
-  "hash": "cac54740",
-  "configHash": "fa7f4dcb",
-  "lockfileHash": "95a0a78b",
-  "browserHash": "3392aa52",
+  "hash": "250c50f6",
+  "configHash": "584d0844",
+  "lockfileHash": "c9e6cefe",
+  "browserHash": "40ad9e19",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/.pnpm/vue@3.5.13/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "0042cb29",
+      "fileHash": "6e97e7ca",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/.pnpm/@vue+devtools-api@7.7.2/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "7b1b1ab8",
+      "fileHash": "b175fb73",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/.pnpm/@vueuse+core@12.8.2/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "a4ddeff4",
+      "fileHash": "4d759894",
       "needsInterop": false
     },
     "element-plus": {
       "src": "../../../../node_modules/.pnpm/element-plus@2.9.7_vue@3.5.13/node_modules/element-plus/es/index.mjs",
       "file": "element-plus.js",
-      "fileHash": "b641ae9b",
+      "fileHash": "b0a856e9",
+      "needsInterop": false
+    },
+    "@element-plus/icons-vue": {
+      "src": "../../../../node_modules/.pnpm/@element-plus+icons-vue@2.3.1_vue@3.5.13/node_modules/@element-plus/icons-vue/dist/index.js",
+      "file": "@element-plus_icons-vue.js",
+      "fileHash": "9b3e4c65",
+      "needsInterop": false
+    },
+    "@vueuse/core": {
+      "src": "../../../../node_modules/.pnpm/@vueuse+core@13.0.0_vue@3.5.13/node_modules/@vueuse/core/index.mjs",
+      "file": "@vueuse_core.js",
+      "fileHash": "47f0d0a3",
       "needsInterop": false
     }
   },
   "chunks": {
+    "chunk-3PLQPG2S": {
+      "file": "chunk-3PLQPG2S.js"
+    },
     "chunk-R7UX57F4": {
       "file": "chunk-R7UX57F4.js"
     },
