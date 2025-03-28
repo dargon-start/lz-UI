@@ -17,7 +17,7 @@ export default defineConfig(({ mode }) => {
     // 初始化 docsBuild 对象
     docsBuild.base = './'
     docsBuild.build = {
-      outDir: '../../docs/.vitepress/dist/element-plus'
+      outDir: '../../docs/.vitepress/dist/element-ui'
     }
   }
   return {
@@ -34,8 +34,8 @@ export default defineConfig(({ mode }) => {
       },
       lib: {
         entry: resolve(__dirname, './components/index.js'),
-        name: 'voiceUi',
-        fileName: 'vc-element-ui',
+        name: 'lz-UI',
+        fileName: 'element-ui',
         formats: ['es', 'cjs', 'umd', 'iife']
       }
     },

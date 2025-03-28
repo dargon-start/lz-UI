@@ -18,10 +18,9 @@ type DocsBuild = {
 }
 
 export default defineConfig(({ mode }) => {
-  let docsBuild: DocsBuild
-  if (mode === 'docs') {
-    docsBuild.base = './'
-    docsBuild.build = {
+  let docsBuild: DocsBuild = {
+    base: './',
+    build: {
       outDir: '../../docs/.vitepress/dist/element-plus'
     }
   }
@@ -36,8 +35,8 @@ export default defineConfig(({ mode }) => {
       },
       lib: {
         entry: resolve(__dirname, './components/index.ts'),
-        name: 'voiceUi',
-        fileName: 'vc-element-plus',
+        name: 'lz-UI',
+        fileName: 'element-plus',
         formats: ['es', 'cjs', 'umd', 'iife']
       }
     },
@@ -49,6 +48,6 @@ export default defineConfig(({ mode }) => {
         }
       ],
     },
-    ...docsBuild
+    ...(mode === 'docs' ? docsBuild : {})
   }
 })
