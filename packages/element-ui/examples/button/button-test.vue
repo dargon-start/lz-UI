@@ -3,7 +3,7 @@
 </template>
 
 <script setup>
-import lzButton from '@/components/button/button.vue'
+import lzButton from '@/components/button'
 </script>
 
 <script>

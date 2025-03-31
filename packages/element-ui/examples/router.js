@@ -13,7 +13,12 @@ const router = new VueRouter({
     {
       path: '/',
       redirect: '/button-test'
-    }
+    },
+    {
+      path: '/title-basic',
+      component: () => import('./title/title-basic.vue'),
+      name: 'TitleBasic'
+    },
   ]
 })
 

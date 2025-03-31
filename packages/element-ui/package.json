@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "element-ui": "^2.15.6",
+    "sass": "^1.86.0",
     "vue": "^2.7.16",
     "vue-router": "^3.5.3",
     "vue-template-compiler": "~2.6.0"

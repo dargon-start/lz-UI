@@ -11,6 +11,8 @@ import App from './App.vue'
 import router from './router'
 import ElementUi from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+import '@/assets/theme/light/index.scss'
+import '@/assets/theme/dark/index.scss'
 
 Vue.use(ElementUi)
 

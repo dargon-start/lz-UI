@@ -2,16 +2,28 @@
   <router-view />
 </template>
 
-<script setup>
-
-</script>
-
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  data() {
+   return {
+     theme: 'qbee-theme__default' 
+   }
+  },
+  created() {
+    this.setTheme()
+  },
+  mounted() {
+  },
+  methods: {
+    // 退出登录
+    setTheme() {
+      document.body.className = this.theme
+    },
+  }
 }
-</script>
 
+</script>
 <style lang="less">
 body {
   background-color: transparent !important;

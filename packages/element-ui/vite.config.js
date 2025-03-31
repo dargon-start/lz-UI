@@ -34,8 +34,8 @@ export default defineConfig(({ mode }) => {
       },
       lib: {
         entry: resolve(__dirname, './components/index.js'),
-        name: 'lz-UI',
-        fileName: 'element-ui',
+        name: 'lzElementUI',
+        fileName: 'lz-element-ui',
         formats: ['es', 'cjs', 'umd', 'iife']
       }
     },
@@ -47,6 +47,7 @@ export default defineConfig(({ mode }) => {
           replacement: join(__dirname, '/')
         }
       ],
+      extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json', '.vue'],
     },
     ...docsBuild
   }

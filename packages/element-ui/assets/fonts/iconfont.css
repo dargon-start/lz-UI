@@ -1,0 +1,41 @@
+@font-face {
+  font-family: iconfont; /* Project id  */
+  src: url('iconfont.ttf?t=1699520677304') format('truetype');
+}
+
+.iconfont {
+  font-family: iconfont !important;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+}
+
+.icon-31dingwei::before {
+  content: "\e600";
+}
+
+.icon-31dingwei::before {
+  content: "\e600";
+}
+
+.icon-daochu::before {
+  content: "\e628";
+}
+
+.icon-shujuzidian::before {
+  content: "\e6df";
+}
+
+.icon-A::before {
+  content: "\e63d";
+}
+
+.icon-question::before {
+  content: "\e72a";
+}
+
+.icon-ellipsis-I::before {
+  content: "\e629";
+}
+

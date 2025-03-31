@@ -35,8 +35,8 @@ export default defineConfig(({ mode }) => {
       },
       lib: {
         entry: resolve(__dirname, './components/index.ts'),
-        name: 'lz-UI',
-        fileName: 'element-plus',
+        name: 'lzElementPlus',
+        fileName: 'lz-element-plus',
         formats: ['es', 'cjs', 'umd', 'iife']
       }
     },
