@@ -1,8 +1,10 @@
 {
-  "name": "@lz-UI/element-plus",
-  "version": "1.0.0",
+  "name": "@longzai-ui/lz-element-plus",
+  "version": "2.0.1",
   "description": "",
-  "main": "index.ts",
+  "main": "dist/lz-element-plus.js",
+  "module": "dist/lz-element-plus.mjs",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

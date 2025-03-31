@@ -1,9 +1,10 @@
 {
-  "name": "@lz-UI/element-ui",
-  "version": "1.0.0",
+  "name": "@longzai-ui/lz-element-ui",
+  "version": "2.0.1",
   "description": "二次封装 element-ui",
-  "main": "dist/vc-element-ui.cjs.js",
-  "module": "dist/vc-element-ui.es.js",
+  "main": "dist/lz-element-ui.js",
+  "module": "dist/lz-element-ui.mjs",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

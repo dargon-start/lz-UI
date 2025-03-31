@@ -30,13 +30,13 @@ export default defineConfig(({ mode }) => {
     ],
     build: {
       rollupOptions: {
-        external: ['element-ui', 'vue']
+        external: ['element-ui', 'vue'],
       },
       lib: {
         entry: resolve(__dirname, './components/index.js'),
         name: 'lzElementUI',
         fileName: 'lz-element-ui',
-        formats: ['es', 'cjs', 'umd', 'iife']
+        formats: ['es', 'cjs', 'umd']
       }
     },
     resolve: {

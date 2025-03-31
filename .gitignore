@@ -27,3 +27,4 @@ instrumented
 cy-report
 # Local Netlify folder
 .netlify
+.npmrc
