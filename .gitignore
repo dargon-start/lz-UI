@@ -25,6 +25,6 @@ robotMsg.json
 cypress-coverage
 instrumented
 cy-report
+.npmrc
 # Local Netlify folder
 .netlify
-.npmrc
