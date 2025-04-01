@@ -1,6 +1,6 @@
 {
-  "name": "@longzai-ui/lz-element-ui",
-  "version": "2.0.1",
+  "name": "@longzai-ui/longzai-element-ui",
+  "version": "1.0.0",
   "description": "二次封装 element-ui",
   "main": "dist/lz-element-ui.js",
   "module": "dist/lz-element-ui.mjs",
@@ -10,8 +10,11 @@
     "build": "vite build",
     "docs:build": "vite build --mode docs"
   },
-  "author": "",
-  "license": "ISC",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "author": "longzai",
   "peerDependencies": {
     "element-ui": "^2.15.0",
     "vue": "^2.6.0"

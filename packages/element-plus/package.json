@@ -1,6 +1,6 @@
 {
-  "name": "@longzai-ui/lz-element-plus",
-  "version": "2.0.1",
+  "name": "@longzai-ui/longzai-element-plus",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/lz-element-plus.js",
   "module": "dist/lz-element-plus.mjs",
@@ -11,8 +11,11 @@
     "docs:build": "vite build --mode docs"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "longzai",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "dependencies": {
     "@vitejs/plugin-vue": "^5.2.3",
     "element-plus": "^2.9.7",
