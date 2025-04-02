@@ -8,7 +8,10 @@ const install = (app: any) => {
   })
 }
 
+export {
+  LzButton,
+}
+
 export default {
   install,
-  ...components
 }

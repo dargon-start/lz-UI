@@ -9,8 +9,11 @@ const  install = (Vue) => {
   })
 }
 
+export {
+  LzButton,
+  Title
+}
 
 export default {
   install,
-  ...components
 }

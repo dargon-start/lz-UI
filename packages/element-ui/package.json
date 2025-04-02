@@ -1,6 +1,6 @@
 {
   "name": "@longzai-ui/longzai-element-ui",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "二次封装 element-ui",
   "main": "dist/lz-element-ui.cjs",
   "module": "dist/lz-element-ui.js",
