@@ -31,12 +31,26 @@ export default defineConfig(({ mode }) => {
     build: {
       rollupOptions: {
         external: ['element-ui', 'vue'],
+        output: {
+          inlineDynamicImports: false,
+          // 分包策略
+          manualChunks(id) {
+            if (id.includes('node_modules')) {
+              return 'vendor'
+            }
+            if (id.includes('/components/')) {
+              const match = id.match(/components\/(.*?)\//)
+              return match ? `${match[1]}` : 'common'
+            }
+          },
+          chunkFileNames: 'components/[name].js',
+        }
       },
       lib: {
         entry: resolve(__dirname, './components/index.js'),
         name: 'lzElementUI',
         fileName: 'lz-element-ui',
-        formats: ['es', 'cjs', 'umd']
+        formats: ['es']
       }
     },
     resolve: {

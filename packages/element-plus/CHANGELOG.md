@@ -1,5 +1,11 @@
 # @longzai-ui/longzai-element-plus
 
+## 1.0.3
+
+### Patch Changes
+
+- 优化构建
+
 ## 1.0.2
 
 ### Patch Changes
